@@ -1,0 +1,9 @@
+{
+	"name": "imersaopratica-dev-adf-001",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "84c87352-72ae-496b-98a4-6ae4be1e5467",
+		"tenantId": "e48d7a13-df4f-490c-adb3-501b51c48a50"
+	}
+}
