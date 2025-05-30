@@ -1,0 +1,52 @@
+{
+	"name": "DelimitedText4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blob_raw_olist",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "olist_order_reviews_dataset.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "review_id",
+				"type": "String"
+			},
+			{
+				"name": "order_id",
+				"type": "String"
+			},
+			{
+				"name": "review_score",
+				"type": "String"
+			},
+			{
+				"name": "review_comment_title",
+				"type": "String"
+			},
+			{
+				"name": "review_comment_message",
+				"type": "String"
+			},
+			{
+				"name": "review_creation_date",
+				"type": "String"
+			},
+			{
+				"name": "review_answer_timestamp",
+				"type": "String"
+			}
+		]
+	}
+}
